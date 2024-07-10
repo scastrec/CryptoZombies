@@ -23,7 +23,8 @@
 * `address` type is a to recognize ethereum user. You can get user address with `msg.sender`
 * `event` function are used to send messages to client (JS)
 * If you need to check conditions to run a function use `require`
-* contract can inherit from another contract with the keyword is `BabyDog is Dog`
+* contract can inherit from another contract with the keyword _is_ `BabyDog is Dog`
+* If you want to receive **Ether**, you function has to use `payable` keyword
 * you can import other solidity files with `import "path/file.sol"`
 * Storage with solidity in blockchain
 1. `storage` keywoard use to store in blockchain `Zombie storage myZombie = ...`
